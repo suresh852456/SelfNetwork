@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<Network encoding="UTF-8" version="1.0">
+  <!--Self Learning Network Configuration-->
+  <Node>
+    <name>Node1</name>
+    <ports>12</ports>
+    <interfaces>eth0,eth1</interfaces>
+    <IPaddr>192.168.2.3</IPaddr>
+    <macaddr>sdgag</macaddr>
+    <xpos>505</xpos>
+    <ypos>50</ypos>
+    <clockspeed>55.2</clockspeed>
+    <queuesize>55</queuesize>
+    <Heat>42</Heat>
+  </Node>
+  <Node>
+    <name>Node2</name>
+    <ports>55</ports>
+    <interfaces>eth0,eth1</interfaces>
+    <IPaddr>135.25.123.44</IPaddr>
+    <macaddr>dgjdj</macaddr>
+    <xpos>62</xpos>
+    <ypos>12</ypos>
+    <clockspeed>23.5</clockspeed>
+    <queuesize>55</queuesize>
+    <Heat>23</Heat>
+  </Node>
+  <Connection>
+    <name>conn1</name>
+    <node1>Node1</node1>
+    <node2>Node2</node2>
+    <ndoe1if>eth0</ndoe1if>
+    <node2if>eth1</node2if>
+    <length>41.0</length>
+    <typeofconn>wired</typeofconn>
+    <medium>utp</medium>
+  </Connection>
+</Network>
